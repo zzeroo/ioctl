@@ -33,7 +33,7 @@ Additionally, in `etc`, there are scripts for scraping system headers for
 How do I get the magic numbers?
 ===============================
 
-Look at your system's headers. For example, `/usr/include/linxu/input.h` has a
+Look at your system's headers. For example, `/usr/include/linux/input.h` has a
 lot of lines defining macros which use `_IOR`, `_IOW`, `_IOC`, and `_IORW`.
 These macros correspond to the `ior!`, `iow!`, `ioc!`, and `iorw!` macros
 defined in this crate. Additionally, there is the `ioctl!` macro for
